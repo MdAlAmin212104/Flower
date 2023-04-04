@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Noto+Serif+Georgian&family=Roboto&display=swap');
+/* Navbar section start */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+.full-body{
+    background-color: #faefef;
+
+}
+.dropdown-menu a{
+    background-color: #faefef;
+}
+
+.form-control{
+    background-image: url(img/search.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px;
+    background-color: #999999 !important;
+    border-radius: 25px;
+    
+    
+    
+}
+.nav-bar{
+    
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    width: 96%;
+    font-family: 'Noto Serif Georgian', serif;
+    height: 200px;
+    border-top: 10px solid #993399;
+
+}
+
+/* Navbar section end */
+
+
+/* carusel section start */
+
+.carusel{
+    background-color:#999999;
+}
+.body-item{
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    width: 96%;
+}
+.body-item h2{
+    font-family: 'Noto Serif Georgian', serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.carousel-item{
+    width: 960px;
+    height: 380px;
+}
+.carousel-caption{
+    background-color: black;
+    position: absolute;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 50% !important;
+    padding-left: 20px;
+
+}
+.carousel-caption h5{
+    text-align: left !important;
+
+}
+.carousel-caption p{
+    text-align: left !important;
+
+}
+
+.carousel-control-prev-icon{
+    background-image: url(img/left.png) !important;
+    
+}
+.carousel-control-next-icon{
+    background-image: url(img/next.png) !important;
+    
+}
+
+
+/* carusel section end */
+
+
+/* Main section start */
+.Main-body{
+    
+    background-color: #cccccc;
+}
+.float-left-img{
+    max-width: 960px;
+    height: 250px;
+    margin: 0 auto;
+    width: 96%;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.img-left img{
+    float: left;
+    display: block;
+    
+    padding-left: 5px;
+}
+.text-right h1 {
+    
+    font-size: 20px;
+    color: #993399;
+    text-align: left;
+}
+.text-right p{
+    text-align: left;
+    font-size: 13px;
+}
+.row{
+    padding-left: 5px;
+}
+.card-bady{
+    background-color: #fafa97 !important;
+}
+
+
+.width-card{
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    width: 96%;
+    padding: 50px 0;
+}
+.card{
+    width: 280px;
+    
+}
+.card-bady{
+    background-color: #ffffff;
+}
+
+.card-img-top{
+    width: 260px ;
+    height: 180px ;
+    padding: 10px 9px 10px 10px ;
+    
+}
+.card-title{
+    font-size: 16px;
+    color: #993399;
+    text-align: center;
+
+}
+.card-text{
+    text-align: center;
+    font-size: 13px;
+}
+
+
+/* Main section end */
+
+
+
+/* footer section start */
+.foter{
+    background-color: #d9d9d7;
+
+}
+.footer-section{
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    width: 96%;
+    padding-top: 50px;
+}
+
+.col-md-3 h1{
+    font-size: 15px;
+    text-align: left;
+    color: #666666;
+    padding-bottom: 15px;
+}
+
+.col-md-3 p{
+    font-size: 13px;
+    text-align: left;
+    color: #666666;
+    line-height: 1.7;
+}
+
+.col-md-3 hr{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+.col-md-3 h6{
+    font-size: 13px;
+    color: #666666;
+}
+.col-md-3 .right{
+    text-align:right;
+    color:#993399;
+    position: relative;
+    top: -20px;
+}
+.col-md-3 input[type="text"]{
+    margin: 5px 0;
+    border-radius: 5px;
+    height: 30px !important;
+
+}
+.col-md-3 input[type="email"]{
+    margin: 5px 0;
+    border-radius: 5px;
+    height: 30px !important;
+}
+
+.col-md-3 button{
+    color:#993399;
+    background-color: aliceblue;
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+
+/* footer section end */
+
+/* copy right simbol section start */
+.copy-body{
+    background-color: #333333;
+}
+.copy-right{
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    width: 96%;
+    
+}
+.left p{
+    color: #ddd;
+    text-align: start;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    font-size: 15px;
+}
+.right p{
+    color: #ddd;
+    text-align: end;
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+    right: 40px;
+}
+
+/* copy right simbol section end */
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px){
+    .search-here{
+        display: block;
+        width: 285px;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        right: 0px;
+        height: 30px;
+        width: 200px;
+    
+    }
+}
+    
